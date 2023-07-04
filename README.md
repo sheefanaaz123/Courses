@@ -1,5 +1,6 @@
 # Courses
  # 1. SheCodes
+ #### This folder contains all the codes of SheCodes.
  * Basics
 <br/>HTML, CSS, JAVASCRIPT
 
