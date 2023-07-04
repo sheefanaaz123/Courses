@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .emoji {
+            text-align: center;
+            font-size: 50px;
+            margin-block-start: .2em;
+            margin-block-end: .001em;
+
+        }
+
+        h2 {
+            text-align: center;
+            color: #1a64d6;
+            margin-block-start: .001px;
+            font-size: 34px;
+            margin-block-end: .001em;
+
+        }
+
+        .temp_main {
+            text-align: center;
+            color: black;
+            margin-block-start: .001px;
+            font-size: 30px;
+            margin-block-end: .001em;
+        }
+
+        h6 {
+            text-align: center;
+            color: black;
+            margin-block-start: .001px;
+            font-size: 20px;
+            margin-block-end: .001em;
+        }
+
+        .day {
+            text-align: center;
+            font-weight: bolder;
+            margin-top: 30px;
+            color: black
+        }
+
+        .temp {
+            text-align: center;
+            color: black;
+            margin-block-start: .001px;
+            font-size: 15px;
+            margin-block-end: .001em;
+        }
+
+        button {
+            display: block;
+            background-color: #1a64d6;
+            color: white;
+            margin-block-start: .001px;
+            font-size: 15px;
+            margin-block-end: .001em;
+            padding: 15px 30px;
+            margin: 0 auto 30px auto;
+            border: 2px solid #1a64d6;
+            border-radius: 20px;
+            margin-top: 20px;
+            transition: all 200ms ease-in-out;
+        }
+
+        button:hover {
+            background: white;
+            color: #1a64d6;
+            cursor: pointer;
+        }
+
+        .end {
+            font-size: 18px;
+            opacity: 0.7;
+            text-align: center;
+            font-family: monospace;
+        }
+
+        .select {
+            display: block;
+            background-color: white;
+            color: black;
+
+
+            padding: 10px 0;
+            border-radius: 10px;
+            transition: all 200ms ease-in-out;
+
+            margin: 0 auto;
+            max-width: 1000px;
+            border: 2px solid white;
+            width: 370px
+        }
+
+        .select:hover {
+            background: #FFFBEF;
+            border: 2px solid #FFFBEF;
+            cursor: default;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="emoji">⛅</p>
+    <h2>Currently 21° in Tokyo</h2>
+    <p class="temp_main">13° / <strong>14°</strong></p>
+    <button class="select">
+        <p class="day">🌨Tomorrow</p>
+        <p class="temp">10° / <strong>22°</strong></p>
+    </button>
+    <button class="select">
+        <p class="day">⛅Saturday</p>
+        <p class="temp">15° / <strong>17°</strong></p>
+    </button>
+    <button class="select">
+        <p class="day">☀Sunday</p>
+        <p class="temp">25° / <strong>28°</strong></p>
+    </button>
+    <button>Change city</button>
+    <p class="end">Coded by Sheefa Naaz</p>
+</body>
+
+</html>
