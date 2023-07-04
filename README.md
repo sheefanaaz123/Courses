@@ -6,7 +6,7 @@
 
 
 # 2. Supply Chain: Schneider Global Student Experience 2023
-
+Selected to be part of Schneider Global Student Experience 2023 program supply chain learning track, where I will gain invaluable insights into overcoming the challenges of today’s digital economy and how Schneider Electric has fundamentally reimagined our Digital Supply Chain.
 
 
 # Getting Started
