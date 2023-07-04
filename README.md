@@ -1,6 +1,6 @@
 # Courses
  # 1. SheCodes
- #### This folder contains all the codes of SheCodes.
+ #### This folder contains all the codes of SheCodes courses I have taken. I got selected and earned SheCodes Scholarship, where I will have access to the a comprehensive  coding training from basic HTML, CSS,and javascript to advanced react , product management , and development tools.
  * Basics
 <br/>HTML, CSS, JAVASCRIPT
 
