@@ -4,6 +4,7 @@
  * Basics
 <br/>HTML, CSS, JAVASCRIPT
 ### FINAL PROJECT
+Made a webpage using HTML, CSS and JAVASCRIPT which takes user's information to pre-book the movie ticket.
 <img width="400" alt="Screenshot 2023-07-09 224026" src="https://github.com/sheefanaaz123/Courses/assets/97973932/4b5be499-02d3-4287-ad98-fd89c01c088d">
 
 
