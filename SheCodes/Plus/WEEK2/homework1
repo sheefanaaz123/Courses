@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h1,
+h2,
+h3 {
+  color: #231d3c;
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+  position: absolute;
+  margin-right: 0 px;
+  left: 0px;
+  top: 0px;
+}
+
+.img-positioning {
+  display: block;
+  margin: 30px auto;
+  width: 75%;
+  position: relative;
+}
+
+.cities {
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  margin-left: 0 px;
+  right: 0px;
+  top: 0px;
+}
+.emojis .first {
+  position: relative;
+  top: -20px;
+}
+.emojis .second {
+  position: relative;
+  left: -24px;
+}
+.emojis .third {
+  position: relative;
+  left: -48px;
+  top: 20px;
+}
