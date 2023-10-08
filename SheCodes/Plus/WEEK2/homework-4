@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(109.6deg, rgb(74, 167, 220) 11.2%, rgb(255, 255, 255) 92.2%);
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .weather-card {
+            background-color: #e4f1fe;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+        }
+
+        .weather-icon {
+            width: 50px;
+            height: 50px;
+        }
+
+        .temperature {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .ratio {
+            left: 70px;
+
+        }
+
+        .dividerClass {
+            border-top-color: gray;
+            stroke-width: 20px;
+        }
+
+        .form-control {
+            border-radius: 30px;
+        }
+
+        .btn {
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ratio" style="--bs-aspect-ratio: 40%;">
+
+        <div class="container"
+            style="background-image: url('https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80'); height:100%; width:100%;">
+            <div class="weather-card">
+                <div class="row">
+                    <div class="col">
+                        <div class="text-bg-secondary">
+                            <div class="card-body">
+                                <h5 class="card-title">Dhanbad, India</h5>
+
+                                <p class="card-text">Sunday, 8 October</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-bg-light">
+                            <img src="C:\Users\KIIT\Desktop\cloud.jpg" class="card-img-top" alt="..." width="20px"
+                                height="70px">
+                            <div class="card-body">
+                                <p class="card-text">44º Mostly Sunny</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-bg-light">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <div class="row">
+                                        <div class="col">Wind</div>
+                                        <div class="col">7mph</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">Rain</div>
+                                        <div class="col">0 %</div>
+                                    </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <hr class="my-3 dividerClass" />
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter the City" aria-label="Enter City"
+                            aria-describedby="basic-addon2" required>
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-primary">Search</button>
+                        </div>
+                    </div>
+                </form>
+                <hr class="my-3 dividerClass" />
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 7rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Mon</h5>
+
+                                <p class="card-text">22º</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 7rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Tue</h5>
+                                <p class="card-text">32º</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 7rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Wed</h5>
+
+                                <p class="card-text">30º</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 7rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Thurs</h5>
+
+                                <p class="card-text">19º</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 7rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Fri</h5>
+
+                                <p class="card-text">25º</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
