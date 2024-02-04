@@ -12,6 +12,9 @@ Made a webpage using HTML, CSS and JAVASCRIPT which takes user's information to 
 # 2. Supply Chain: Schneider Global Student Experience 2023
 Under Schneider Global Student Experience 2023, I gained access to the Supply Chain course.
 
+# 3. 100 DAYS OF PYTHON
+Contains 100 python projects.
+
 # Getting Started
 To access the course materials, navigate to the respective course folder and explore the contents within each folder. The notes and codes are organized in a logical manner to facilitate easy referencing and understanding.
 
